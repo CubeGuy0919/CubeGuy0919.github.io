@@ -36,6 +36,10 @@ h2,h3{
     color: #FDE55F;
     text-transform: uppercase;
 }
+
+h4{
+    color: #FDE55F;
+}
 #logo{
     width: 50%;
     /*display: flex;
@@ -64,4 +68,36 @@ a:hover{
 
 p .kozepre{
    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0;
+    /*width: 100%;*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+th, td{
+    border: 5px solid white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+th{
+    background-color: #FDE55F;
+}
+
+th{
+    color: black;
+}
+
+{
+    position: absolute;
+    left: 60px;
+    top: 1300px;
 }
