@@ -8,15 +8,24 @@
         body{
             background-color: rgb(183, 184, 178);
             text-align: center;
+            align-items: center;
+            justify-content: center;
         }
         h1{
             color: black;
             font-size: 40px;
         }
         a:hover{
+            background-color: #858589;
             color: rgb(185, 83, 83);
             font-weight: bold;
             font-size: 35px;
+            height: 100px;
+            width: 100%;
+            position: relative;
+        }
+        a:hover div{
+            padding: 200px;
         }
         p{
           font-size: 30px;
@@ -25,9 +34,18 @@
           font-size: 30px;
           text-decoration: none;
           color: rgb(133, 36, 36);
+
+          cursor: pointer;
+          transition: .2s ease;
         }
         div{
-          
+          background-color: #858589;
+          border: 3px solid black;  
+          display: block;
+          width: 320px;
+          height: 40px;
+          position: relative;
+          left: 596px;
         }
     </style>
 </head>
@@ -36,13 +54,11 @@
     <h1><u>Magamról</u></h1>
 
     <p><b>Párványik Dániel</b>nek hívnak.</p>
-    <br>
-      <p>Szeretem a MARVEL képregényeket!</p>
-    <br>
-      <p>Szeretem a sajtot!</p>
+    <p>Szeretem a MARVEL képregényeket!</p>
+    <p>Szeretem a sajtot!</p>
 
 <br>
-    <div><a href="https://cubeguy0919.github.io/Sakk Klub ICDL Feladat" target="_blank">Sakk Klub ICDL Feladat</a></div>
+    <div><a href="https://cubeguy0919.github.io/Sakk Klub ICDL Feladat" target="_blank" class="icdl">Sakk Klub ICDL</a></div>
   <br>
     <div><a href="https://cubeguy0919.github.io/gitlabor3" target="_blank">Gitlabor3</a></div>
   <br>
@@ -54,7 +70,8 @@
 <br>
 <br>
 <br>
-
+<br>
+<br>
 <br>
 
     <hr>
